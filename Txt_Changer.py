@@ -7,6 +7,12 @@ console = Console()
 #Prints TXT in a Bold green color
 def bold_Green(txt):
        console.print(f"[bold green]{txt}[/bold green]")  # Corrected formatting
+def Green(txt):
+       console.print(f"[green]{txt}[/green]")  # Corrected formatting
+
+#INPUT TXT in a Bold HotPink3 color
+def I_bold_HP_3(txt):
+       console.input(f"[bold hot_pink3]{txt}[/bold hot_pink3]")  # Corrected formatting
 
 #File Editing Functions
 
