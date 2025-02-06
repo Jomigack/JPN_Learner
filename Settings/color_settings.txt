@@ -1,3 +1,4 @@
 Kanji-sky_blue1
 Text-green
 Important-hot_pink3 
+Jackal-red
