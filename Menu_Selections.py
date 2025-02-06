@@ -1,5 +1,7 @@
 import Ascii
 import Txt_Changer
+import OS_Func
+from rich.console import Console
 
 #Greeting Call
 def Menu_Greet():
@@ -12,3 +14,5 @@ def Menu_Greet():
         if(content.lower() == 'false'):
             Txt_Changer.Green("I see you are new to this application! Let's get started with some custom configurations!")
             Txt_Changer.I_bold_HP_3("(Press any button to continue...)")
+            OS_Func.cls()
+            Txt_Changer.Green("Would you want to change the default colors for the text that appears on the screen? (Such as this one?)\n[bold](Y/N)[/bold]")
