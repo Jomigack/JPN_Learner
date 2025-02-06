@@ -1,7 +1,7 @@
 # JPN_Learner
 JapaneseLearner Program (IN PROGRESS)
 
-Each Python File:
+# Each Python File:
 Ascii.py -- Prints Ascii Files with basic styling
 
 main.py -- Main function caller and Menu
