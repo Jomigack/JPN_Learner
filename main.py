@@ -1,3 +1,5 @@
 import Ascii
+import Txt_Changer
+import Menu_Selections
 
-Ascii.printAscii("Japan_Jackal_Logo.txt")
+Menu_Selections.Menu_Greet()
